@@ -1,20 +1,28 @@
-ublic class Maths {
+public class Prime {
 
-    public int Add (int num1, int num2)
-    {
-        return num1 + num2;
+    public static void main(String[] args) {
+
+        int low = 20, high = 50;
+
+        while (low < high) {
+            if(checkPrimeNumber(low))
+                System.out.print(low + " ");
+
+            ++low;
+        }
     }
 
-    public int Subtract (int num1, int num2)
-    {
-        return num1 - num2;
-    }
-    public int Multiply (int num1, int num2)
-    {
-        return num1 * num2;
-    }
-    public int Divide (int num1, int num2)
-    {
-        return num1 / num2;
+    public static boolean checkPrimeNumber(int num) {
+        boolean flag = true;
+
+        for(int i = 2; i <= num/2; ++i) {
+
+            if(num % i == 0) {
+                flag = false;
+                break;
+            }
+        }
+
+        return flag;
     }
 }
