@@ -1,0 +1,12 @@
+Hi Liam,
+
+I am Dave, I will help you with this.
+
+There is no code to change the text on the buttons in the MsgBox dialog, you can only change the buttons that appear on that dialog.
+
+https://docs.microsoft.com/en-us/office/vba/lan...
+___________________________________________________________________
+
+Power to the Developer!
+
+MSI GV72 - 17.3", i7-8750H (Hex Core), 32GB DDR4, 4GB GeForce GTX 1050 Ti, 256GB NVMe M2, 2TB HDD
