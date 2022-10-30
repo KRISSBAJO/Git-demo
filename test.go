@@ -1,2 +1,7 @@
-document.getElementById("demo").style.fontSize = "35px";
+<div ng-app="">
+
+<p>Name: <input type="text" ng-model="name"></p>
+<p>You wrote: {{ name }}</p>
+
+</div>
 
